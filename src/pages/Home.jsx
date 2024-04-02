@@ -191,7 +191,8 @@ const Home = () => {
                     <ReviewSlider/>
                 </div> */}
 
-                <div className='mt-[200px]'>
+                <h2 className='text-center text-4xl font-semibold mt-[200px]'>Reviews From Other Learners</h2>
+                <div className='mt-[100px]'>
                     <ReviewSlider/>
                 </div>
             </div>
