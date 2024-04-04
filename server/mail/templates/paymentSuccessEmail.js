@@ -1,4 +1,4 @@
-exports.paymentSuccessEmail = (amount, paymentId, orderId, name, lastname) => {
+exports.paymentSuccessEmail = (name, lastname, amount, orderId, paymentId) => {
     return `<!DOCTYPE html>
     <html>
     
