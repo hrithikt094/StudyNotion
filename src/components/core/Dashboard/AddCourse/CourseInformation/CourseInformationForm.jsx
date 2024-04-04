@@ -118,8 +118,8 @@ const CourseInformationForm = () => {
                 toast.error("No changes made to the form");
             }
 
-            console.log("PRINTING FORM DATA OF EDIT COURSE", formData);
-            console.log("PRINTING RESULT OF EDITCOURSEDETAILS", result);
+            // console.log("PRINTING FORM DATA OF EDIT COURSE", formData);
+            // console.log("PRINTING RESULT OF EDITCOURSEDETAILS", result);
             return;
         }
 
@@ -142,8 +142,8 @@ const CourseInformationForm = () => {
         }
 
         setLoading(false);
-        console.log("PRINTING FORM DATA OF NEW FORM", formData);
-        console.log("PRINTING RESULT OF ADDCOURSEDETAILS", result);
+        // console.log("PRINTING FORM DATA OF NEW FORM", formData);
+        // console.log("PRINTING RESULT OF ADDCOURSEDETAILS", result);
     }
 
     return (

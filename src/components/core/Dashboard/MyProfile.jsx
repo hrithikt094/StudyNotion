@@ -41,7 +41,7 @@ const MyProfile = () => {
                     <IconBtn
                         text="Edit"
                         onclick={() => {
-                            navigate("dashboard/settings")
+                            navigate("/dashboard/settings")
                         }} 
                     >
                         <FiEdit/>

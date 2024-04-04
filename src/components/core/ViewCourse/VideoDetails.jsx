@@ -22,7 +22,7 @@ const VideoDetails = () => {
     const {courseSectionData, courseEntireData, completedLectures} = useSelector(
         (state) => state.viewCourse);
     const {user} = useSelector((state) => state.profile);
-    console.log("userId is : ", user._id);
+    // console.log("userId is : ", user._id);
 
     const [videoData, setVideoData] = useState([]);
     const [previewSource, setPreviewSource] = useState("");

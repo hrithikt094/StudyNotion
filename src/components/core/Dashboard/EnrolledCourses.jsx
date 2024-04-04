@@ -14,7 +14,8 @@ const EnrolledCourses = () => {
         try {
             const result = await getUserEnrolledCourses(token);
             console.log("getEnrolledCourses result is : ", result);
-            setEnrolledCourses(result.courses);
+            // setEnrolledCourses(result.courses);
+            setEnrolledCourses(result);
         } catch (error) {
             console.log("Could not fetch enrolled courses.")
         }
@@ -32,7 +33,7 @@ const EnrolledCourses = () => {
 
             {
                 !enrolledCourses ? (<div className='grid min-h-[calc(100vh-3.5rem)] place-items-center'>
-                        <div className='spinner'></div>
+                        <div className='spinner text-4xl text-white'>Loading</div>
                     </div>
                 ) : !enrolledCourses.length ? (
                         <p className='grid h-[10vh] w-full -ml-[110px] place-content-center 
